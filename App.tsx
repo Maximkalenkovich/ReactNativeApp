@@ -18,6 +18,7 @@ const App = () => {
         <View style={styles.buttonContainer}>
           <Button title="Increment" onPress={handleIncrement} />
           <Button title="Decrement" onPress={handleDecrement} />
+          <Button title="Reset" onPress={() => setCount(0)}> 0</Button>
         </View>
       </View>
   );
